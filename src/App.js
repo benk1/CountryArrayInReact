@@ -31,7 +31,7 @@ class App extends Component {
     this.setState ({
     text: e.target.value.toLowerCase(),
     });
-    
+   
   };
 
   randomHexaNumberGenerator = (num) => {
@@ -59,7 +59,7 @@ class App extends Component {
   };
 
   render() {
-     const newstartwitharray = this.state.result.map ((item ,i) => <div style={{backgroundColor: this.randomHexaNumberGenerator()}}  key={i} className="item"> {item}</div>);
+     const newArray = this.state.result.map ((item ,i) => <div style={{backgroundColor: this.randomHexaNumberGenerator()}}  key={i} className="item"> {item}</div>);
     
   return (  
   <div className="App">
@@ -73,9 +73,9 @@ class App extends Component {
         <br />
         <input onChange={this.handleChange} type="text" ref="fieldName" placeholder="Search Country..." />
         <br />
-        <br />
-        <p>Sum of listed countries: {newstartwitharray.length}</p>
-        {newstartwitharray}
+       
+        <p>Sum of listed countries: {newArray.length}</p>
+        {newArray}
       </div>
 
   </div>
