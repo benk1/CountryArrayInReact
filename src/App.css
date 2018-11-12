@@ -33,6 +33,17 @@ button {
 
 input {
   text-align: center;
+  width: 60%;
+  /*height: 40%;*/
+  text-align: center;
+ background: #f4f7f6;
+    font-size: 30px;
+    color: gray;
+    /*margin-bottom: 0px;*/
+   
+   
+    /*display: block;*/
+    height: 2em;
 }
 
 .item {
@@ -65,4 +76,13 @@ input {
   height: 40px;
   line-height: 40px;
 
+}
+
+h1{
+  color: green;
+}
+
+p{
+  color: orange;
+  font-size: 25px;
 }
