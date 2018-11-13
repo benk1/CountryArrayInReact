@@ -36,14 +36,14 @@ input {
   width: 60%;
   /*height: 40%;*/
   text-align: center;
- background: #f4f7f6;
-    font-size: 30px;
-    color: gray;
-    /*margin-bottom: 0px;*/
-   
-   
-    /*display: block;*/
-    height: 2em;
+  background: #f4f7f6;
+  font-size: 30px;
+  color: gray;
+  /*margin-bottom: 0px;*/
+
+
+  /*display: block;*/
+  height: 2em;
 }
 
 .item {
@@ -51,7 +51,7 @@ input {
   flex-direction: column;
   width: 700px;
   text-align: center;
-  margin-left: 460px;
+  margin-left: 300px;
   height: 40px;
   line-height: 40px;
 
@@ -78,11 +78,16 @@ input {
 
 }
 
-h1{
+h1 {
   color: green;
 }
 
-p{
+p {
   color: orange;
   font-size: 25px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 20px;
 }
